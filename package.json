@@ -21,9 +21,6 @@
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
-    "h3": "2.0.1-rc.20",
-    "nitro-cloudflare-dev": "^0.2.2",
-    "nitropack": "^2.13.3",
     "wrangler": "^4.84.1"
   }
 }
