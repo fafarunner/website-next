@@ -52,34 +52,34 @@
                 {{ t("footer.github") }}
               </a>
             </li>
-            <li>
-              <a href="https://discord.gg/GSRWmQNP87" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:discord" class="text-base" />
-                {{ t("footer.discord") }}
-              </a>
-            </li>
-            <li>
-              <a href="https://reddit.com/r/fafarunner" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:reddit" class="text-base" />
-                {{ t("footer.reddit") }}
-              </a>
-            </li>
-            <li>
-              <a rel="me" href="https://mastodon.social/@fafarunner" target="_blank"
-                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:mastodon" class="text-base" />
-                Mastodon
-              </a>
-            </li>
-            <li>
-              <a href="https://shop.fafarunner.com" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-solid:shirt" class="text-base" />
-                {{ t("footer.merch") }}
-              </a>
-            </li>
+<!--            <li>-->
+<!--              <a href="https://discord.gg/GSRWmQNP87" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:discord" class="text-base" />-->
+<!--                {{ t("footer.discord") }}-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="https://reddit.com/r/fafarunner" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:reddit" class="text-base" />-->
+<!--                {{ t("footer.reddit") }}-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a rel="me" href="https://mastodon.social/@fafarunner" target="_blank"-->
+<!--                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:mastodon" class="text-base" />-->
+<!--                Mastodon-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="https://shop.fafarunner.com" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-solid:shirt" class="text-base" />-->
+<!--                {{ t("footer.merch") }}-->
+<!--              </a>-->
+<!--            </li>-->
           </ul>
         </div>
 
@@ -99,12 +99,12 @@
                 {{ t("footer.terms") }}
               </NuxtLink>
             </li>
-            <li>
-              <NuxtLink :to="localePath('/imprint')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.imprint") }}
-              </NuxtLink>
-            </li>
+<!--            <li>-->
+<!--              <NuxtLink :to="localePath('/imprint')"-->
+<!--                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">-->
+<!--                {{ t("footer.imprint") }}-->
+<!--              </NuxtLink>-->
+<!--            </li>-->
             <li>
               <NuxtLink :to="localePath('/contact')"
                 class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
