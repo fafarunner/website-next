@@ -63,7 +63,7 @@ const mentionedArticles: MentionedArticle[] = [
         bgClass: "bg-blue-50/50 dark:bg-blue-950/20",
     },
     {
-        title: "Mit Localsend lassen sich Dateien schnell im WLAN teilen",
+        title: "Mit FaFaRunner lassen sich Dateien schnell im WLAN teilen",
         description: "DataCenter-Insider",
         language: "twemoji:flag-germany",
         url: "https://www.datacenter-insider.de/mit-fafarunner-lassen-sich-dateien-schnell-im-wlan-teilen-a-a3b134cc1f9960fbfced8c556ed239b8/",
